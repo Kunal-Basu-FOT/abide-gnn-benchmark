@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "abide-gnn-benchmark"
+version = "0.1.0"
+description = "Functional connectome benchmark for ABIDE ASD classification"
+requires-python = ">=3.11"
+
+[tool.setuptools.packages.find]
+include = ["abide_gnnbench*"]
